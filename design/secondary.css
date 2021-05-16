@@ -4,16 +4,16 @@ body{
 }
 
 h1{
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 h2{
-font-size:1.5rem;
+font-size:1rem;
 font-weight:lighter;
 }
 
 h3{
-    font-size:1.3rem;
+    font-size:1rem;
     font-weight:lighter;
     padding:20px;
 }
@@ -24,8 +24,9 @@ h3{
 
 #description{
     padding-left:20px;
-    width:40%;
+    width:80%;
     line-height:130%;
+    font-size:0.8rem;
 }
 
 html{
@@ -63,10 +64,8 @@ a{
 }
 
 img{
-    height:500px;
-    margin-right:10px;
-    margin-bottom:20px;
-
+    width:100%;
+    margin-top:10px;
 }
 
 #content{
@@ -84,9 +83,8 @@ img{
 }
 
 #images{
-    padding-left:20px;
     margin-top:50px;
-    
+    padding:20px;
 }
 
 #websitelink{
@@ -96,4 +94,107 @@ img{
 h4{
     color:hotpink;
     font-weight: lighter;
+}
+
+@media only screen and (min-width:800px){
+    body{
+        background:rgb(238, 238, 238);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    h1{
+        font-size:2rem;
+    }
+    
+    h2{
+    font-size:1.5rem;
+    font-weight:lighter;
+    }
+    
+    h3{
+        font-size:1.3rem;
+        font-weight:lighter;
+        padding:20px;
+    }
+    
+    #class{
+        font-style: italic;
+    }
+    
+    #description{
+        padding-left:20px;
+        width:40%;
+        line-height:130%;
+    }
+    
+    html{
+        cursor:none;
+    }
+    
+    #cursor{
+        height:40px;
+        width:40px;
+        border-radius:20px;
+        background:radial-gradient(rgb(255, 33, 162),white);
+        position:absolute;
+        filter:blur(5px);
+    }
+    
+    #intro{
+        width:50%;
+        font-size:1.5rem;
+        padding:20px;
+        margin-top:100px;
+    }
+    
+    a{
+        text-decoration:none;
+        color:black;
+        cursor:none;
+    }
+    
+    #container{
+        display:flex;
+        justify-content: space-between;
+        padding-right:20px;
+        padding-left:20px;
+        position:sticky;
+    }
+    
+    img{
+        height:500px;
+        margin-right:10px;
+        margin-bottom:20px;
+    
+    }
+    
+    #content{
+        overflow:hidden;
+        display:inline-flex;
+        margin-bottom:8px;
+        width:calc(50% -4px);
+        margin-right:8px;
+        padding-right:20px;
+        padding-left:20px;
+    }
+    
+    #content:nth-of-type(2n){
+        margin-right:0;
+    }
+    
+    #images{
+        padding-left:20px;
+        margin-top:50px;
+        
+    }
+    
+    #websitelink{
+        padding-left:20px;
+    }
+    
+    h4{
+        color:hotpink;
+        font-weight: lighter;
+    }
+    
 }
