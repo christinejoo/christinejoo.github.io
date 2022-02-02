@@ -1,0 +1,34 @@
+body{
+  background-color:#E9E9E9;
+  line-height: 50%;
+  text-align:center;
+  padding:50px;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-size:2.5vh;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight:600;
+}
+
+h2{
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight:600;
+  font-size:2.5vh;
+}
+
+img{
+  width:35vw;
+}
+
+p{
+  text-align:center;
+}
+
+#caption{
+  width:35vw;
+  margin:auto;
+  line-height:120%;
+}
