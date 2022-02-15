@@ -94,24 +94,32 @@ td{
 }
 
 @media only screen and (min-width:600px){
-  .card01{
-    width:700px;
-  }
-
   .wrapper{
-    padding-top:100px;
+    padding-top:50px;
   }
 
-  .post{
-    width:600px;
-    position:relative;
-  }
+.card01{
+  width:900px;
+  height:85vh;
 }
+  .post{
+    width:80vw;
+    margin-left:0px;
+    position:absolute;
+    left:30px;
+    top:150px;
+  }
+
+  p{
+    font-size:2vw;
+  }
 
 img{
-  width:95%;
-  margin-top:20px;
+  width:60%;
 }
+}
+
+
 
 #direction{
   margin-top:20px;
@@ -149,7 +157,7 @@ button{
 
 @media only screen and (min-width:300px){
   .wrapper{
-    margin-top:75px;
+    padding-top:150px;
   }
 
 .card01{
@@ -167,7 +175,9 @@ button{
   p{
     font-size:0.5vh;
   }
-
+  h3{
+    font-size:1.3vh;
+  }
 
 }
 
