@@ -9,15 +9,16 @@ body{
 }
 
 h1{
-  font-size:5vh;
+  font-size:3vh;
   text-align:left;
   line-height:normal;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight:600;
-  position: relative;
-  top:-15px;
+  position: absolute;
+  top:0px;
   padding-left:10px;
   color: #0076FF;
+  left:10px;
 }
 
 h2{
@@ -82,6 +83,30 @@ td{
   position:relative;
 }
 
+@media only screen and (min-width:700px){
+  .wrapper{
+    margin-top:20px;
+  }
+
+  .name{
+    margin-bottom:0px;
+  }
+}
+
+@media only screen and (min-width:600px){
+  .card01{
+    width:700px;
+  }
+
+  .wrapper{
+    padding-top:100px;
+  }
+
+  .post{
+    width:600px;
+  }
+}
+
 img{
   width:95%;
   margin-top:20px;
@@ -121,10 +146,30 @@ button{
   width:50vw;
 }
 
+@media only screen and (min-width:300px){
+  .wrapper{
+    margin-top:75px;
+  }
+
+.card01{
+  width:95vw;
+  height:85vh;
+}
+  .post{
+    width:50vw;
+  }
+
+  p{
+    font-size:3vw;
+  }
+
+
+}
+
 p{
   text-align:left;
   padding-right:20px;
-  font-size:1.5vh;
+
   top:0px;
   position:relative;
 }
