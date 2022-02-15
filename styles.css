@@ -27,9 +27,6 @@ h2{
   font-size:2.5vh;
 }
 
-img{
-  width:35vw;
-}
 
 p{
   text-align:center;
@@ -43,7 +40,7 @@ p{
 
 table, td {
   border:none;
-  line-height:150%;
+  line-height:130%;
   text-align:left;
 }
 
@@ -83,46 +80,59 @@ td{
   position:relative;
 }
 
-@media only screen and (min-width:700px){
-  .wrapper{
-    margin-top:20px;
+@media only screen and (min-width:1000px){
+
+  p{
+    width:700px;
   }
 
-  .name{
-    margin-bottom:0px;
+  .post{
+    top:-200px;
+    position:relative;
+  }
+
+}
+
+@media only screen and (min-width:700px){
+  .wrapper{
+    padding:0px;
+  }
+
+  img{
+    width:350px;
+    height:auto;
+  }
+
+  .post{
+    width:500px;
   }
 }
 
 @media only screen and (min-width:600px){
   .wrapper{
-    padding-top:50px;
+    position:absolute;
+    top:200px;
   }
 
-.card01{
-  width:900px;
-  height:85vh;
-}
-  .post{
-    width:80vw;
-    margin-left:0px;
-    position:absolute;
-    left:30px;
-    top:150px;
+  #direction{
+    bottom:20px;
+    position:fixed;
   }
 
   p{
     font-size:2vw;
   }
 
-img{
-  width:60%;
-}
 }
 
 
 
 #direction{
-  margin-top:20px;
+  margin-top:50px;
+  position:fixed;
+  left:50%;
+  transform:translate(-50%,0);
+  font-size:1.5vh;
 }
 
 .date{
@@ -146,23 +156,50 @@ button{
   /* margin-left:-100px; */
 }
 
-.post{
+/* .post{
   position: absolute;
   top:30px;
   justify-content:left;
   margin-left:-100px;
   padding-right:20px;
   width:50vw;
+} */
+
+@media only screen and (min-width:475px){
+  .wrapper{
+    position:relative;
+    top:-50px;
+  }
+
+  #direction{
+    bottom:20px;
+    position:fixed;
+  }
+}
+
+@media only screen and (min-width:338px){
+  .card01{
+    height:50vh;
+  }
+
+  .wrapper{
+    padding-top:0px;
+
+  }
+
+  #direction{
+    margin-top:0px;
+  }
 }
 
 @media only screen and (min-width:300px){
   .wrapper{
-    padding-top:150px;
+    padding-top:200px;
   }
 
 .card01{
   width:900px;
-  height:90vh;
+  height:85vh;
 }
   .post{
     width:80vw;
