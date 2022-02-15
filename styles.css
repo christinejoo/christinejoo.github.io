@@ -76,7 +76,7 @@ td{
 
 .card01{
   background:none;
-  width:600px;
+  width:90vw;
   height:80vh;
   margin-right:25px;
   position:relative;
@@ -118,13 +118,13 @@ button{
   justify-content:left;
   margin-left:-100px;
   padding-right:20px;
-
+  width:50vw;
 }
 
 p{
   text-align:left;
   padding-right:20px;
-  font-size:1.6vh;
+  font-size:1.5vh;
   top:0px;
   position:relative;
 }
