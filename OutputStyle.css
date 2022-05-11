@@ -1,0 +1,89 @@
+/* body {
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background:black;
+  color:white;
+}
+
+#canvas {
+  align-self: stretch;
+  width: 100%;
+  height: 90vh;
+  background: rgb(0, 0, 0);
+}
+
+
+#title {
+  text-align: left;
+  left:30px;
+  position:absolute;
+}
+
+#instructions{
+  text-align:center;
+  opacity:50%;
+  display:inline;
+  position:absolute;
+  left:30px;
+  bottom:30px;
+} */
+
+#data{
+  display:inline;
+  right:30px;
+  position:absolute;
+  opacity:100%;
+  bottom:30px;
+}
+
+/* display #info and #title on the same line*/
+
+
+#header{
+ text-align:center;
+ /* padding-top:3vh; */
+}
+
+#info{
+  display:inline;
+  text-align:left;
+  right:30px;
+  position:absolute;
+}
+
+table{
+  border-collapse:collapse;
+  width:96%;
+  margin:auto;
+  border:0.2px solid white;
+  opacity:100%;
+  padding:20px;
+}
+
+/* #table{
+  padding-top:10vh;
+} */
+
+td, th{
+  border: 1px solid #FFFFFF;
+  text-align:center;
+  padding:8px;
+}
+
+img{
+  width:40%;
+  opacity:100%;
+}
+
+p{
+  text-align:center;
+  font-size:1.2vh;
+  margin:auto;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}

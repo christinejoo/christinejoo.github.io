@@ -1,5 +1,5 @@
 body{
-    background-color: #151515;
+    background-color: black;
     color:#FFFFFF;
     font-family:neue-haas-grotesk-display, sans-serif;
     font-weight:500;
@@ -27,14 +27,14 @@ h1{
     font-size:0.8em;
     display:inline-flex;
     width:40%;
-    padding-right:25px;
+    padding-right:30px;
 }
 
 #process{
     font-size:0.8em;
     display:inline-flex;
     width:25%;
-    padding-right:25px;
+    padding-right:30px;
 }
 
 #outputs{
@@ -93,4 +93,12 @@ td{
     margin:0;
     padding:20px;
     bottom:0px;
+}
+
+/* #content{
+    font-size:1em;
+} */
+
+p{
+    font-size:1.2em;
 }

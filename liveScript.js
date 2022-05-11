@@ -23,6 +23,7 @@ var clubs = [['Manchester City F.C.', 'English Premier League','#6CABDD','#1C2C5
 ['Everton F.C.','English Premier League', '#003399','#FFFFFF','#FFFFFF'],
 ['Watford F.C.','English Premier League', '#fbee23','#ed2127','#11210c'],
 ['Norwich City F.C.','English Premier League','#fff200','#00a650','#000000'],
+['West Ham United F.C.','English Premier League', '#7a263a','#1bb1e7','#f3d459'],
 
 ['Real Madrid C.F.','Spanish LaLiga','#FEBE10','#00529F','#EE324E'],
 ['Barcelona F.C.','Spanish LaLiga','#EDBB00','#004D98','#A50044','#DB0030','#FFED02'],
@@ -56,14 +57,14 @@ var clubs = [['Manchester City F.C.', 'English Premier League','#6CABDD','#1C2C5
 ['F.C. Nantes','French Ligue 1','#FCD405','#1B8F3A','#1B8F3A'],
 ['Stade Brestois 29 ','French Ligue 1','#ED1C24','#FFFFFF','#000000'],
 ['Montpellier Hérault SC','French Ligue 1','#D87043','#344575','#000000'],
-['Stade de Reims','French Ligue 1','#EE2223','#FFFFFF','#EE2223'],
+['Stade de Reims','French Ligue 1','#EE2223','#ee2223','#EE2223'],
 ['Angers SCO','French Ligue 1','#FFFFFF','#D9C395','#000000'],
 ['F.C. Lorient','French Ligue 1','#F58113','#FFFFFF','#000000'],
 ['Es Troyes AC','French Ligue 1','#006EB2','#DC9D0F','#FFFFFF'],
 ['Clermont Foot','French Ligue 1','#C50C46','#002D6A','#FFFFFF'],
 ['AS St-Étienne','French Ligue 1','#E20513','#009EE6','#008D3F'],
 ['F.C. Girondins de Bordeaux','French Ligue 1','#001B50','#FFFFFF','#001B50'],
-['FC Metz','French Ligue 1','#6E0F12','#FFFFFF','#6E0F12']
+['FC Metz','French Ligue 1','#6E0F12','#FFFFFF','#6E0F12'],
 
 ['Bayern Munich F.C.','German Bundesliga','#0066B2','#DC052D','#FFFFFF'],
 ['Borussia Dortmund','German Bundesliga','#FDE100','#FDE100','#000000'],
@@ -82,8 +83,36 @@ var clubs = [['Manchester City F.C.', 'English Premier League','#6CABDD','#1C2C5
 ['Hertha BSC','German Bundesliga','#004D9E','#FFFFFF','#000000'],
 ['VfB Stuttgart','German Bundesliga','#FFED00','#E32219','#FFFFFF'],
 ['Arminia Bielefeld','German Bundesliga','#004E95','#FFFFFF','#000000'],
-['SpVgg Greuther Fürth','German Bundesliga','#009932','#FFFFFF','#000000']
+['SpVgg Greuther Fürth','German Bundesliga','#009932','#FFFFFF','#000000'],
 
+['New York Red Bulls','American Major League Soccer','#ED1E36','#23326A','#FABB23'],
+['Orlando City','American Major League Soccer','#633492','#FDE192','#FFFFFF'],
+['Atlanta United','American Major League Soccer','#80000A','#221f1f','#a19060','#817144'],
+['Toronto F.C.','American Major League Soccer','#B81137','#455560','#B0B7BB'],
+['Montreal Impact','American Major League Soccer','#9ea1a2','#0033a1','#000000'],
+['New York City F.C.','American Major League Soccer','#6cace4','#041e42','#f15524'],
+['Charlotte F.C.','American Major League Soccer','#1a85c8','#000000','#ffffff'],
+['Inter Miami C.F.','American Major League Soccer','#f7b5cd','#231f20','#ffffff'],
+['Chicago Fire','American Major League Soccer','#ff0000','#141946','#7ccdef'],
+['D.C. United','American Major League Soccer','#ef3e42','#231f20','#ffffff'],
+['Columbus Crew', 'American Major League Soccer','#fedd00','#000000','#ffffff'],
+['New England Revolution','American Major League Soccer','#ce0e2d','#0a2240','#ffffff'],
+['F.C. Cincinnati','American Major League Soccer','#f05323','#263b80','#ffffff'],
+['Los Angeles F.C.','American Major League Soccer','#c39e6d','#e31837','#55565a','#b3b2b1'],
+['Austin F.C.','American Major League Soccer','#00b140','#000000','#ffffff'],
+['LA Galaxy','American Major League Soccer','#00245d','#0065a4','#ffd200'],
+['F.C. Dallas', 'American Major League Soccer','#e81f3e','#2a4076','#cccbcc'],
+['Minnesota United','American Major League Soccer','#e4e5e6','#8cd2f4','#231f20'],
+['Real Salt Lake F.C.','American Major League Soccer','#b30838','#013a81','#f1cb00'],
+['Houston Dynamo ','American Major League Soccer','#ff6b00','#101820','#ffffff'],
+['Nashville S.C.','American Major League Soccer','#ece83a','#1f1646','#1f1646'],
+['Portland Timbers','American Major League Soccer','#00482b','#d69a00','#ffffff'],
+['Coloardo Rapids','American Major League Soccer','#eae827','#004812','#ffffff'],
+['Seattle Sounders','American Major League Soccer','#005595','#5d9741','#142530'],
+['Sporting Kansas City','American Major League Soccer','#91b0d5','#91b0d5','#999999'],
+['San Jose Earthquakes','American Major League Soccer','#0067b1','#e31837','#ffffff'],
+['Vancouver Whitecaps','American Major League Soccer','#00245e','#9dc2ea','#ffffff'],
+['Philadelphia Union','American Major League Soccer','#071b2c','#b19b69','#3e8ede']
 ]
 
 
