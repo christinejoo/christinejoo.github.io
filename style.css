@@ -1,0 +1,96 @@
+body{
+    background-color: #151515;
+    color:#FFFFFF;
+    font-family:neue-haas-grotesk-display, sans-serif;
+    font-weight:500;
+    font-style:normal;
+}
+
+h1{
+    font-size: 1.0em;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+}
+
+#bottom{
+    display:flexbox;
+    justify-content: space-between;
+    align-items: left;
+    padding:20px;
+    bottom:0px;
+    position:absolute;
+}
+
+#aboutProject{
+    font-size:0.8em;
+    display:inline-flex;
+    width:40%;
+    padding-right:25px;
+}
+
+#process{
+    font-size:0.8em;
+    display:inline-flex;
+    width:25%;
+    padding-right:25px;
+}
+
+#outputs{
+    font-size:0.8em;
+    display:inline-flex;
+    width:25%;
+}
+
+
+#header{
+    display:flex;
+    justify-content: space-between;
+    z-index:100;
+    position:relative;
+}
+
+a:link, a:visited {
+    color:#4aca5b;
+    text-decoration: none;
+}
+
+
+table{
+    /* border:1px solid white; */
+    text-align:left;
+    margin:20px;
+    width:40%;
+    font-size:small;
+}
+
+td{
+    padding-bottom:50px;
+}
+
+#data, #data2{
+    font-family:neue-haas-grotesk-display, sans-serif;
+    font-weight:500;
+    font-style:normal;
+    font-size:1.0em;
+  
+}
+
+#data2{
+    font-style:italic;
+    opacity:50%;
+}
+
+#frame{
+    position:relative;
+    z-index:80;
+    top:-70px;
+}
+
+#container{
+    position:absolute;
+    margin:0;
+    padding:20px;
+    bottom:0px;
+}
